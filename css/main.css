@@ -176,14 +176,15 @@ margin-bottom: 18px;
   margin: 5px 0 25px;
   box-shadow: 0 0 0.1em gray;
   text-align: center;
-  float: right;
-}
+  position: relative;}
  button:hover{
     background-color: #ff2c00;
  }
 .btn_pos {
   text-align: center;
   width: 100%;
+  position: relative;
+  float: right;
 }
 .main_footer{
   text-align: center;
