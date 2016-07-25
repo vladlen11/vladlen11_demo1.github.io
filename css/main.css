@@ -111,6 +111,8 @@ h2{
 }
 .download ul{
   padding: 0;
+  z-index: 500;
+  position: relative;
 }
 .download ul li{
   padding:0px;
