@@ -147,23 +147,11 @@ border-radius: 5px;
 margin-top: 5px;
 text-indent: 12px;
 line-height: 40px;
-font-size: 14px;
+font-size: 12px;
 background-color:#fff;
 margin-top: 0px;
 margin-bottom: 18px;
 }
-.form-group .text-danger ul,
-.form-group .text-danger li {  
-   margin: 0;
-   padding: 0;
-   list-style-type: none; 
-   color: red;
-   font-size: 13px;
-   position: relative;
-   top: -44px;
-   float: right;
- }
-
 
  button {
   border: 2px solid #fff;
@@ -178,15 +166,14 @@ margin-bottom: 18px;
   margin: 5px 0 25px;
   box-shadow: 0 0 0.1em gray;
   text-align: center;
-  position: relative;}
+  float: right;
+}
  button:hover{
     background-color: #ff2c00;
  }
 .btn_pos {
   text-align: center;
   width: 100%;
-  position: relative;
-  float: right;
 }
 .main_footer{
   text-align: center;
@@ -303,6 +290,3 @@ h4{
 .footer_content a:hover{
   text-decoration: underline;
 }
-
-
-
