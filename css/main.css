@@ -65,6 +65,7 @@ h2{
 }
 .list_content ul {
   padding: 0;
+
 }
 .list_content ul li{
   list-style-type: none;
@@ -111,8 +112,8 @@ h2{
 }
 .download ul{
   padding: 0;
+    position: relative;
   z-index: 500;
-  position: relative;
 }
 .download ul li{
   padding:0px;
@@ -178,16 +179,17 @@ margin-bottom: 18px;
   margin: 5px 0 25px;
   box-shadow: 0 0 0.1em gray;
   text-align: center;
-  position: relative;}
+position: relative;}
  button:hover{
     background-color: #ff2c00;
  }
 .btn_pos {
   text-align: center;
   width: 100%;
-  position: relative;
-  float: right;
+  display: inline-block;
 }
+
+
 .main_footer{
   text-align: center;
   background-color: #fff;
@@ -303,6 +305,3 @@ h4{
 .footer_content a:hover{
   text-decoration: underline;
 }
-
-
-
